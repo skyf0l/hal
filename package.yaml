@@ -1,0 +1,29 @@
+name:                hal
+version:             1
+github:              "skyf0l/hal"
+license:             BSD3
+author:              "Skyf0l;TempoDev"
+maintainer:          "-"
+copyright:           "2021 Skyf0l;TempoDev"
+
+extra-source-files:
+- README.md
+
+description:         Please see the README on GitHub at <https://github.com/Skyf0l/hal#readme>
+
+dependencies:
+- base >= 4.7 && < 5
+
+library:
+  source-dirs: src
+
+executables:
+  hal:
+    main:                Main.hs
+    source-dirs:         app
+    ghc-options:
+    - -threaded
+    - -rtsopts
+    - -with-rtsopts=-N
+    dependencies:
+    - hal
