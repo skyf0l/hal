@@ -1,8 +1,27 @@
-# hal
+# HAL
 
 A lisp interpreter in Haskell based on [r6rs](http://www.r6rs.org/)
 
 By [@skyf0l](https://github.com/skyf0l) and [@TempoDev](https://github.com/TempoDev)
+
+# Notes
+
+<!-- Grade : ... | Mark : ... -->
+
+| Category            | Percentage | Tests     |
+| ------------------- | ---------- | --------- |
+| 01 Basics           | 100%       | 3/3       |
+| 02 Quote            | 100%       | 2/2       |
+| 03 Cons Car Cdr     | 100%       | 5/5       |
+| 04 Arithmetics      | 100%       | 3/3       |
+| 05 Equalities       | 100%       | 5/5       |
+| 06 Define           | 100%       | 2/2       |
+| 07 Conditionals     | 100%       | 3/3       |
+| 08 Lambda           | 100%       | 3/3       |
+| 09 Complex programs | 100%       | 5/5       |
+| 10 Error handling   | 100%       | 4/4       |
+| 99 Coding style     | 100%       | 3/3       |
+| **End scores**      | **100%**   | **38/38** |
 
 # Features
 
