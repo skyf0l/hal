@@ -2,7 +2,7 @@
 
 A lisp interpreter in Haskell based on [r6rs](http://www.r6rs.org/)
 
-By [@skyf0l](https://github.com/skyf0l) and [@TempoDev](https://github.com/TempoDev)
+By [@skyf0l](https://github.com/skyf0l) and [@pebloop](https://github.com/pebloop)
 
 # Notes
 
